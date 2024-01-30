@@ -1,8 +1,8 @@
 {
-  "name": "one-webcrypto",
+  "name": "@bicycle-codes/one-webcrypto",
   "version": "1.0.3",
   "description": "Import the webcrypto API as a single module in both nodejs and browsers.",
-  "repository": "https://github.com/fission-suite/one-webcrypto",
+  "repository": "https://github.com/bicycle-codes/one-webcrypto",
   "author": "Philipp Krüger <philipp@fission.codes>",
   "license": "MIT",
   "types": "index.d.ts",

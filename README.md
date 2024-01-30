@@ -25,6 +25,15 @@ const webcrypto = crypto.webcrypto
 
 These different ways of getting access to valuable cryptographic primitives (see `webcrypto.subtle`) accross platforms (node & browsers) are hard to get right.
 
+## fork
+
+This is functionally equivalent to [fission/one-webcrypto](https://github.com/fission-codes/one-webcrypto)
+
+## install
+
+```sh
+npm i -S @bicycle-codes/one-webcrypto
+```
 
 ## Usage
 
