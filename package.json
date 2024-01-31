@@ -7,6 +7,9 @@
   "license": "MIT",
   "types": "index.d.ts",
   "main": "dynamic.cjs",
+  "scripts": {
+    "postversion": "git push --follow-tags && npm publish"
+  },
   "exports": {
     ".": {
       "browser": "./browser.mjs",
