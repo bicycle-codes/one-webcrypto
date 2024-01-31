@@ -40,7 +40,7 @@ npm i -S @bicycle-codes/one-webcrypto
 With this package, you can just import the [WebCrypto API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API) like so:
 
 ```js
-import { webcrypto } from "one-webcrypto"
+import { webcrypto } from "@bicycle-codes/one-webcrypto"
 
 webcrypto.getRandomValues( //...
 await webcrypto.subtle.generateKey( //...
@@ -49,7 +49,7 @@ await webcrypto.subtle.generateKey( //...
 Or with CommonJS:
 
 ```js
-const { webcrypto } = require("one-webcrypto")
+const { webcrypto } = require("@bicycle-codes/one-webcrypto")
 ```
 
 
