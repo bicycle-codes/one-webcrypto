@@ -12,11 +12,16 @@
   },
   "exports": {
     ".": {
+      "types": "./index.d.ts",
       "browser": "./browser.mjs",
       "import": "./node.mjs",
       "require": "./node.cjs"
     },
-    "./package.json": "./package.json"
+    "./package.json": "./package.json",
+    "./*": {
+      "import": "./*.mjs",
+      "require": "./*.cjs"
+    }
   },
   "dependencies": {}
 }
